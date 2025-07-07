@@ -1,0 +1,20 @@
+// objects literals
+
+import { jsx } from "react/jsx-runtime"
+
+//import { isValidElement } from "react";
+const mySym = Symbol("Key1")
+const JsUser = {
+    naame : "feros",
+    age:  8,
+    lcoation: "Bengaluru",
+    email: "afsdfer@google.com",
+    isloginDays : ["Monday", "saturday"]
+    [mySym]: "mykey1"
+
+}
+
+
+console.log(JsUser.age)
+console.log(JsUser.email)
+console.log(JsUser.mySym)
